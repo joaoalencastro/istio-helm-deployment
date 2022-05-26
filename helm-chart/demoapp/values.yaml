@@ -1,7 +1,7 @@
 deployment:
-  name: flaskapp
-  image: nikolambda/testing-app
-  tag: v1
+  name: goapp
+  image: joaoalencastro/demoapp
+  tag: v0.1
 
 svc:
-  name: flaskapp
+  name: goapp
