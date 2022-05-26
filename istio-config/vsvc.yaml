@@ -10,8 +10,8 @@ spec:
   http:
     - route:
       - destination:
-          host: flaskapp.prod.svc.cluster.local 
+          host: goapp.prod.svc.cluster.local 
         weight: 50
       - destination:
-          host: flaskapp.stage.svc.cluster.local
+          host: goapp.stage.svc.cluster.local
         weight: 50
